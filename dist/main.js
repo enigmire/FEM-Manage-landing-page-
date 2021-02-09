@@ -56,27 +56,27 @@ navToggle.addEventListener('click', function () {
 // }
 // repeat();
 
-$(".carousel").owlCarousel({
-  effect: 'coverflow',
-  centeredSlides: true,
-  margin: 5,
-  loop: true,
-  autoplay: true,
-  autoplayTimeout: 2000, //2000 ms = 2
-  autoplayHoverPause: true,
-  responsive: {
-    0: {
-      item: 1,
-      nav: false
-    },
-    600: {
-      item: 2,
-      nav: false
-    },
-    1000: {
-      item: 3,
-      nav: false
-    }
-  }
-});
+// $(".carousel").owlCarousel({
+//   effect: 'coverflow',
+//   centeredSlides: true,
+//   margin: 5,
+//   loop: true,
+//   autoplay: true,
+//   autoplayTimeout: 2000, //2000 ms = 2
+//   autoplayHoverPause: true,
+//   responsive: {
+//     0: {
+//       item: 1,
+//       nav: false
+//     },
+//     600: {
+//       item: 2,
+//       nav: false
+//     },
+//     1000: {
+//       item: 3,
+//       nav: false
+//     }
+//   }
+// });
 
